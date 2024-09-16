@@ -26,3 +26,20 @@ html{
 .btn-contato button:hover{
     transform: scale(1.01);
 }
+
+.btn-social button{
+    border: none;
+    background-color: #005BE3;
+    width: 68px;
+    height: 68px;
+    border-radius: 40px;
+    font-size: 38px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.btn-social button:hover{
+    background: #0049b6;
+}
