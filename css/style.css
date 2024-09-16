@@ -51,7 +51,7 @@ header a{
     color: #7d7d7d;
     text-decoration: none;
     display: inline-block;
-    transition: .2s;
+    transition: .2s ease;
 }
 
 header nav.menu-desktop a:hover{
@@ -87,7 +87,7 @@ main{
 }
 
 section.topo-do-site{
-    padding: 250px 4%;
+    padding: 264px 4%;
 }
 
 section.topo-do-site .flex{
@@ -103,6 +103,7 @@ section.topo-do-site .flex{
 
 .topo-do-site .txt-topo-site p{
     margin: 20px 0;
+    font-weight: 500;
 }
 
 .topo-do-site .img-topo-site{
@@ -119,18 +120,14 @@ section.topo-do-site .flex{
 }
 
 /* SKILLS */
-.skills{
-    height: 100vh;
-}
 
 .container{
     width: 100%;
-    padding: 0 8%;
+    padding: 120px 8%;
 }
 
 .skills h1{
     font-size: 42px;
-    position: relative;
 }
 
 .skills .row{
@@ -150,7 +147,7 @@ section.topo-do-site .flex{
 }
 
 .container .skill i{
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 10px;
     color: #005BE3;
 }
@@ -167,6 +164,130 @@ section.topo-do-site .flex{
 
 .container .skill:hover i{
     color: #fff;
+}
+
+/* PROJETOS */
+#projects {
+	padding: 10rem 0;
+}
+
+.section-heading{
+    font-size: 42px;
+    text-align: center;
+}
+
+#projects .item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 15rem;
+	/* gap: 2rem; */
+}
+
+#projects .item:nth-of-type(even) {
+	flex-direction: row-reverse;
+}
+
+#projects .item .left {
+	flex: 1;
+}
+
+#projects .item .right {
+	margin-left: -150px;
+	flex: 1;
+	background-color: #fff;
+	padding: 2rem 1.5rem;
+	border-radius: 12px;
+	box-shadow: 0px 0px 20px #00000028;
+	z-index: 2;
+}
+
+#projects .item:nth-of-type(even) .right {
+	margin-left: 0;
+}
+
+#projects .item:nth-of-type(even) .left {
+	margin-left: -150px;
+}
+
+#projects .item .left .img {
+	overflow: hidden;
+	border-radius: 12px;
+	overflow: hidden;
+	position: relative;
+}
+
+#projects .item .left .img::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#projects .item .left .img img {
+	object-fit: cover;
+	transition: 0.3s ease transform;
+}
+
+#projects .item:hover .left .img img {
+	transform: scale(1.01);
+	z-index: 1;
+}
+
+#projects .item .right .project-title {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+#projects .item .right .project-sub-title {
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+}
+
+#projects .item .right .project-desc {
+	color: #000;
+	margin-bottom: 2rem;
+}
+
+#projects .btn-contato button{
+    font-size: 15px;
+}
+
+/* SOBRE */
+section.about{
+    width: 100%;
+    padding: 0px 8%;
+}
+
+section.about img{
+    height: auto;
+    width: 450px;
+    border-radius: 12px;
+}
+
+section.about .about-txt{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+section.about .about-txt h1{
+    font-size: 34px;
+}
+
+section.about .flex{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
 }
 
 @media screen and (max-width:1020px) {
@@ -281,5 +402,34 @@ section.topo-do-site .flex{
     .skills h1{
         font-size: 32px;
         position: relative;
+    }
+
+    /* PROJETOS */
+    #projects .item {
+		flex-direction: column;
+	}
+	#projects .item .left {
+		width: 100%;
+	}
+	#projects .item .right {
+		margin-left: 0;
+		width: 90%;
+		margin-top: -150px;
+	}
+	#projects .item:nth-of-type(even) {
+		flex-direction: column;
+	}
+	#projects .item:nth-of-type(even) .left {
+		margin-left: 0;
+	}
+
+    /* SOBRE */
+
+    section.about img{
+        width: 300px;
+    }
+
+    section.about .about-txt{
+        width: 320px;
     }
 }
