@@ -269,7 +269,6 @@ section.about img{
 }
 
 section.about .about-txt{
-    width: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -280,13 +279,12 @@ section.about .about-txt h1{
     font-size: 34px;
 }
 
+section.about .about-txt h4{
+    font-size: 18px;
+}
+
 section.about .flex{
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-self: center;
-    justify-content: space-around;
+    gap: 16px;
 }
 
 @media screen and (max-width:1020px) {
@@ -421,7 +419,15 @@ section.about .flex{
 	#projects .item:nth-of-type(even) .left {
 		margin-left: 0;
 	}
+    /* SOBRE */
 
+    section.about .about-img img{
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:520px){
     /* SOBRE */
 
     section.about img{
