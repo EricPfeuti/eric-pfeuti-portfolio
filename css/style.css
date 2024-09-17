@@ -168,7 +168,7 @@ section.topo-do-site .flex{
 
 /* PROJETOS */
 #projects {
-	padding: 10rem 0;
+	padding: 40px 4%;
 }
 
 .section-heading{
@@ -259,8 +259,7 @@ section.topo-do-site .flex{
 
 /* SOBRE */
 section.about{
-    width: 100%;
-    padding: 0px 8%;
+    padding: 40px 4%;
 }
 
 section.about img{
