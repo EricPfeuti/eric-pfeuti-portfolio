@@ -227,13 +227,15 @@
             <div class="interface">
                 <h1 class="titulo">FALA <span>COMIGO.</span></h1>
     
-                <form>
-                    <input type="text" id="nome" name="nome" placeholder="Seu nome:" >
-                    <input type="text" id="email" name="email" placeholder="Seu email:" >
-                    <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem:" ></textarea>
-                    <div class="btn-enviar">
-                        <input type="submit" value="ENVIAR">
-                    </div>
+                <form action="https://formsubmit.co/eric.pfeuti2007@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Digite seu nome:" required>
+                    <input type="text" name="email" placeholder="Digite seu email:" required>
+                    <textarea name="message" placeholder="Digite sua mensagem:" required></textarea>
+                    <button type="submit">ENVIAR</button>
+
+                    <input type="hidden" name="_subject" value="Novo Contato!">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
             </div>
         </section><br><br><br>
