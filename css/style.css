@@ -16,6 +16,11 @@ span{
     display: flex;
 }
 
+.titulo{
+    font-size: 56px;
+    text-align: center;
+}
+
 /* HEADER */
 
 header{
@@ -123,11 +128,7 @@ section.topo-do-site .flex{
 
 .container{
     width: 100%;
-    padding: 120px 8%;
-}
-
-.skills h1{
-    font-size: 42px;
+    padding: 40px 8%;
 }
 
 .skills .row{
@@ -287,11 +288,93 @@ section.about .flex{
     gap: 16px;
 }
 
+/* FORMULARIO */
+
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #D9D9D9;
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #000;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 300px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input[type=submit]{
+    width: 120px;
+    background-color: #005BE3;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease;
+    border-radius: 6px;
+}
+
+form .btn-enviar input:hover{
+    background-color: #0049b6;
+}
+
+/* FOOTER */
+
+footer{
+    padding: 10px 4%;
+    background-color: #246fe0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .line-footer p i{
+    color: white;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+}
+
+footer .logo-footer:hover{
+    transform: scale(1.05);
+}
+
+footer .logo-footer{
+    transition: 0.2s;
+    padding: 15px;
+}
+
 @media screen and (max-width:1020px) {
 
     /* GERAL */
     .flex{
         flex-direction: column;
+    }
+
+    .titulo{
+        font-size: 36px;
     }
 
     /* HEADER */
@@ -423,6 +506,20 @@ section.about .flex{
 
     section.about .about-img img{
         align-items: center;
+    }
+
+    /* FOOTER */
+    footer .btn-social button{
+        border: none;
+        background-color: #246fe0;
+        width: 30px;
+        height: 30px;
+        border-radius: 40px;
+        font-size: 38px;
+        margin: 15px;
+        cursor: pointer;
+        color: #fff;
+        transition: .3s ease;
     }
 
 }
