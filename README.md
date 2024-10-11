@@ -2,5 +2,5 @@
 
 <img src="images/Capture.PNG">
 
-## Linguagens Utilizadas:
+## LINGUAGENS UTILIZADAS:
 [![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
