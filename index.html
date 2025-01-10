@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/escuro.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JavaScript -->
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/temas.js"></script>
+
+    <link rel="shortcut icon" href="images/perfil-pic-Eric.png" type="image/x-icon">
+
+    <title>Portfólio | Eric Pfeuti</title>
+</head>
+<body>
+    
+    <header id="header">
+        <a href="#" class="logo">
+            <img src="images/logoEricAzul.png" alt="logo" id="logoNormal">
+            <img src="images/logoEricPreto.png" alt="logoBranco" id="logoBranco">
+        </a>
+          
+        <ul class="navbar">
+          <li><a href="#">Início</a></li>
+          <li><a href="#meio-do-site">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+          
+        <div class="main">
+            <div id="modo-escuro">
+                <input type="checkbox" class="checkbox" id="chk">
+    
+                <label class="label" for="chk" id="label-escuro">
+                    <i class='bx bxs-sun' id="sol"></i>
+                    <i class='bx bxs-moon' id="lua"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+            <a href="#" id="btn-contato"><button>CONTATO</button></a>
+            <div class="btn-abrir-menu" id="btn-menu">
+              <i class='bx bx-menu'></i>
+            </div>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <i class='bx bx-x'></i>
+          </div>
+          <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#meio-do-site">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>              
+            </ul>
+          </nav>
+        </div>
+          
+        <div class="overlay-menu" id="overlay-menu">
+
+        </div>
+    </header>
+
+    <main>
+        <section id="topo-do-site" class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h2>Olá, sou</h2>
+                        <h1>Eric Pfeuti</h1>
+                        <h2>E eu sou um <span>Estudante de TI</span>.</h2>
+                        <p>Tenho 17 anos e sou um estudante no ensino médio técnico da FIAP School, uma instituição reconhecida por seu foco em inovação e tecnologia. Com um currículo voltado para a prática, atualmente estou em busca de oportunidade de estágio para aplicar e ampliar meus conhecimentos em desenvolvimento de software.
+                        </p>
+                        <div id="btns">
+                            <a href="#" id="btn-contato"><button>CONTATO</button></a>
+                            <a href="#" id="btn-download"><button><i class='bx bx-cloud-download' ></i> DOWNLOAD</button></a>
+                        </div>
+                        
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="images/perfil-img.png" alt="img perfil">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="meio-do-site" class="meio-do-site">
+            <h1 id="titulo"><span>PROJETOS</span>.</h1>
+            <div class="flex">
+                <div class="card">
+                    <img src="images/educa-eco-pic.png" alt="image EducaEco" id="imageLogo">
+                    <img src="images/img-logoEducaEco.png" alt="logo EducaEco" id="imgLogoPreto">
+                    <img src="images/img-logoEducaEcoBranco.png" alt="logo EducaEco" id="imgLogoBranco">
+                    <ul>
+                        <li>plataforma de ensino dedicada a promover práticas sustentáveis para indivíduos, empresas e instituições;</li>
+                    </ul>
+                    <div class="icons">
+                        <img src="images/devicon--nodejs.svg" alt="Logo NodeJS">
+                        <img src="images/logos--javascript.svg" alt="Logo JavaScript">
+                        <img src="images/devicon--mongodb.svg" alt="Logo MongoDB">
+                        <img src="images/devicon--html5.svg" alt="Logo HTML">
+                        <img src="images/devicon--css3.svg" alt="Logo CSS">
+                    </div>
+                    <a href="#" id="btn-repositorio"><button><i class='bx bxl-github'></i> REPOSITÓRIO</button></a>
+                </div>
+                <div class="card">
+                    <img src="images/site-farmácia-pic.png" alt="image Farmácia" id="imageLogo">
+                    <img src="images/logoFarmaciaPreto.png" alt="logo Farmácia" id="imgLogoPreto">
+                    <img src="images/logoFarmaciaBranco.png" alt="logo Farmácia" id="imgLogoBranco">
+                    <ul>
+                        <li>plataforma de ensino dedicada a promover práticas sustentáveis para indivíduos, empresas e instituições;</li>
+                    </ul>
+                    <div class="icons">
+                        <img src="images/devicon--nodejs.svg" alt="Logo NodeJS">
+                        <img src="images/logos--javascript.svg" alt="Logo JavaScript">
+                        <img src="images/devicon--mongodb.svg" alt="Logo MongoDB">
+                        <img src="images/devicon--html5.svg" alt="Logo HTML">
+                        <img src="images/devicon--css3.svg" alt="Logo CSS">
+                    </div>
+                    <a href="#" id="btn-repositorio"><button><i class='bx bxl-github'></i> REPOSITÓRIO</button></a>
+                </div>
+                <div class="card">
+                    <img src="images/site-botanico-pic.png" alt="image VerdeVivo" id="imageLogo">
+                    <img src="images/logoverdeVivoPreto.png" alt="logo VerdeVivo" id="imgLogoPretoVerdeVivo">
+                    <img src="images/logoverdeVivoBranco.png" alt="logo VerdeVivo" id="imgLogoBrancoVerdeVivo">
+                    <ul>
+                        <li>plataforma de ensino dedicada a promover práticas sustentáveis para indivíduos, empresas e instituições;</li>
+                    </ul>
+                    <div class="icons">
+                        <img src="images/devicon--nodejs.svg" alt="Logo NodeJS">
+                        <img src="images/logos--javascript.svg" alt="Logo JavaScript">
+                        <img src="images/catppuccin--json.svg" alt="Logo JSON">
+                        <img src="images/devicon--html5.svg" alt="Logo HTML">
+                        <img src="images/devicon--css3.svg" alt="Logo CSS">
+                    </div>
+                    <a href="#" id="btn-repositorio"><button><i class='bx bxl-github'></i> REPOSITÓRIO</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="habilidades">
+            <h1 id="titulo"><span>HABILIDADES</span>.</h1>
+            <div class="interface">
+                <div class="grid-container">
+                    <div class="card-habilidade">
+                        <img src="images/devicon--nodejs.svg" alt="logo NodeJS">
+                        <h2 id="node">Node.js</h2>
+                        <p>Venho desenvolvendo está habilidade na FIAP School, aplicando meus conhecimentos em vários projetos;</p>
+                    </div>
+                    <div class="card-habilidade">
+                        <img src="images/logos--javascript.svg" alt="logo JavaScript">
+                        <h2 id="js">JavaScript</h2>
+                        <p>Venho desenvolvendo está habilidade na FIAP School, aplicando meus conhecimentos em vários projetos;</p>
+                    </div>
+                    <div class="card-habilidade">
+                        <img src="images/devicon--html5.svg" alt="logo HTML">
+                        <h2 id="html">HTML5</h2>
+                        <p>Venho desenvolvendo está habilidade na FIAP School, aplicando meus conhecimentos em vários projetos;</p>
+                    </div>
+                    <div class="card-habilidade">
+                        <img src="images/devicon--css3.svg" alt="logo CSS">
+                        <h2 id="css">CSS3</h2>
+                        <p>Venho desenvolvendo está habilidade na FIAP School, aplicando meus conhecimentos em vários projetos;</p>
+                    </div>
+                    <div class="card-habilidade">
+                        <img src="images/twemoji--flag-united-states.svg" alt="logo USA">
+                        <h2 id="us">Inglês</h2>
+                        <p>Venho aprendendo Inglês na escola CNA (Cultural Norte Americano), nível avançado;</p>
+                    </div>
+                    <div class="card-habilidade">
+                        <img src="images/devicon--java.svg" alt="logo Java">
+                        <h2 id="java">Java</h2>
+                        <p>Venho desenvolvendo está habilidade em um curso da Udemy do Nelio Alves;</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+<!-- Box Icons-->
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</html>
