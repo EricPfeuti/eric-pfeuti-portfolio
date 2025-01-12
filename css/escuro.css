@@ -1,0 +1,127 @@
+#modo-escuro{
+    margin: 0;
+    transition: 2s linear;
+    padding-right: 5px;
+}
+
+#imgLogoBranco{
+    display: none;
+}
+
+#imgLogoBrancoVerdeVivo{
+    display: none;
+}
+
+#logoBranco{
+    display: none;
+}
+
+header{
+    background: #DDF7FF;
+}
+
+body.dark-mode {
+    background: #000;
+}
+
+body.dark-mode header {
+    background: #000;
+}
+
+body.dark-mode main{
+    color: #fff;
+}
+
+body.dark-mode #logoBranco{
+    display: block;
+    margin-bottom: 8px;
+}
+
+body.dark-mode #logoNormal{
+    display: none;
+}
+
+body.dark-mode #imgLogoBranco{
+    display: block;
+    margin-bottom: 8px;
+}
+
+body.dark-mode #imgLogoPreto{
+    display: none;
+}
+
+body.dark-mode #imgLogoBrancoVerdeVivo{
+    display: block;
+    margin-bottom: 16px;
+}
+
+body.dark-mode #imgLogoPretoVerdeVivo{
+    display: none;
+}
+
+body.dark-mode .card, body.dark-mode .habilidades .card-habilidade{
+    background-color: #221E1E;
+    color: #fff;
+}
+
+body.dark-mode .navbar a{
+    color: #fff;
+}
+
+body.dark-mode .navbar a:hover{
+    color: #007FFF;
+}
+
+body.dark-mode .navbar a.active{
+    color: #007FFF;
+}
+
+body.dark-mode .contato .value-input input, body.dark-mode .contato .value-input textarea {
+    background: #221E1E;
+}
+
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+
+#label-escuro{
+    background-color: #7C7C7C;
+    border-radius: 50px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 4px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+}
+
+#label-escuro .ball{
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+
+    height: 22px;
+    width: 22px;
+    
+    transform: translateX(0px);
+    transition: transform .2s linear;
+}
+
+.checkbox:checked + #label-escuro .ball {
+    transform: translateX(24px);
+}
+
+#lua {
+    color: #FFFFFF;
+}
+
+#sol {
+    color: #FFFF00;
+}

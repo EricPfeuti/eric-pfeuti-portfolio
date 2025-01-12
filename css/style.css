@@ -1,0 +1,276 @@
+/* GERAL */
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+#titulo{
+    font-size: clamp(3rem, 10vw, 5rem);
+    text-align: center;
+}
+
+/* MAIN */
+main{
+    color: #000;
+}
+
+section.topo-do-site{
+    padding: 18rem 4%;
+}
+
+.img-topo-site img{
+    border-radius: 30px;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    font-size: 3.5rem;
+    line-height: 50px;
+    margin-bottom: 8px;
+}
+
+.topo-do-site h2{
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+    line-height: 50px;
+}
+
+.topo-do-site .txt-topo-site p{
+    margin: 16px 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#btns {
+    display: flex;
+    gap: 8px;
+}
+
+/* MEIO do SITE */
+.meio-do-site{
+    min-height: 100vh;
+    padding: 8rem 4%;
+}
+
+.meio-do-site .container-grid-cards-habilidades{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 380px);
+    justify-content: center;
+    padding: 2rem 4%;
+    gap: 40px;
+}
+
+/* MEIO do SITE - CARD */
+.meio-do-site .card{
+    background: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.meio-do-site .card #imgLogoBranco{
+    margin-top: 8px;
+}
+
+.meio-do-site .card #imgLogoPreto{
+    margin-top: 8px;
+}
+
+.meio-do-site .card #imgLogoPretoVerdeVivo{
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.meio-do-site .card ul{
+    margin-left: 1.5rem;
+    margin-bottom: 16px;
+}
+
+.meio-do-site .card ul li{
+    font-weight: 500;
+}
+
+.meio-do-site .card .icons{
+    margin-bottom: 16px;
+}
+
+.meio-do-site .card .icons img{
+    width: clamp(2rem, 10vw, 3.2rem);
+}
+
+.meio-do-site .card #btn-repositorio{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* HABILIDADES */
+.habilidades{
+    min-height: 100vh;
+    padding: 8rem 4%;
+}
+
+.habilidades .grid-container{
+    padding: 3rem;
+}
+
+.habilidades .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 330px);
+    gap: 16px;
+    justify-content: center;
+}
+
+.habilidades .grid-container .card-habilidade{
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.habilidades .grid-container .card-habilidade img{
+    width: clamp(4rem, 10vw, 5rem);
+    margin-bottom: 10px;
+}
+
+.habilidades .grid-container .card-habilidade h2{
+    margin-bottom: 8px;
+}
+
+.habilidades .grid-container .card-habilidade p{
+    font-weight: 500;
+}
+
+/* SOBRE */
+.sobre{
+    min-height: 100vh;
+    padding: 180px 4%;
+}
+
+.sobre .flex{
+    gap: 40px;
+}
+
+.sobre .img-sobre-site img{
+    width: 25rem;
+}
+
+.sobre .txt-sobre-site h2{
+    font-size: clamp(2rem, 10vw, 3rem);
+}
+
+.sobre .txt-sobre-site p{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 18px;
+}
+
+/* CONTATO */
+.contato{
+    min-height: 100vh;
+    padding: 180px 4%;
+}
+
+.contato form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 4%;
+}
+
+.value-input{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.value-input input{
+    width: 680px;
+    height: 80px;
+    outline: 0;
+    border: 0;
+    font-size: 1.2rem;
+    padding: 0px 0px 0px 70px;
+    border-radius: 4px;
+    color: #AAAAAA;
+    font-weight: 500;
+}
+
+.value-input i{
+    font-size: 3rem;
+    cursor: pointer;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    color: #AAAAAA;
+}
+
+.value-input textarea{
+    width: 680px;
+    height: 80px;
+    outline: 0;
+    border: 0;
+    font-size: 1.2rem;
+    padding: 25px 0px 0px 70px;
+    border-radius: 4px;
+    color: #AAAAAA;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1200px){
+    .meio-do-site .flex{
+        flex-direction: column;
+    }
+}
+
+/* FOOTER */
+footer{
+    padding: 40px 4%;
+    background-color: #007FFF;
+}
+
+footer .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer #redes-sociais ul li a{
+    background-color: #0061c2;
+}
+
+@media screen and (max-width: 1080px){
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    .img-topo-site img{
+        width: 100%;
+    }
+
+    .meio-do-site .card #imageLogo{
+        width: 100%;
+    }
+
+    .sobre img{
+        display: none;
+    }
+
+    .contato .value-input input, .contato .value-input textarea{
+        width: 350px;
+    }
+}

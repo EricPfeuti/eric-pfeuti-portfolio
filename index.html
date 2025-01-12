@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/escuro.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JavaScript -->
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/temas.js"></script>
+
+    <link rel="shortcut icon" href="images/perfil-pic-Eric.png" type="image/x-icon">
+
+    <title>Portfólio | Eric Pfeuti</title>
+</head>
+<body>
+    
+    <header id="header">
+        <a href="#" class="logo">
+            <img src="images/logoEricAzul.png" alt="logo" id="logoNormal">
+            <img src="images/logoEricPreto.png" alt="logoBranco" id="logoBranco">
+        </a>
+          
+        <ul class="navbar">
+          <li><a href="#">Início</a></li>
+          <li><a href="#meio-do-site">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+        </ul>
+          
+        <div class="main">
+            <div id="modo-escuro">
+                <input type="checkbox" class="checkbox" id="chk">
+    
+                <label class="label" for="chk" id="label-escuro">
+                    <i class='bx bxs-sun' id="sol"></i>
+                    <i class='bx bxs-moon' id="lua"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+            <a href="#contato" id="btn-contato"><button>CONTATO</button></a>
+            <div class="btn-abrir-menu" id="btn-menu">
+              <i class='bx bx-menu'></i>
+            </div>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <i class='bx bx-x'></i>
+          </div>
+          <nav>
+            <ul>
+                <li><a href="#">Início</a></li><br>
+                <li><a href="#meio-do-site">Projetos</a></li><br>
+                <li><a href="#habilidades">Habilidades</a></li><br>
+                <li><a href="#sobre">Sobre</a></li><br>
+                <li><a href="#contato">Contato</a></li>              
+            </ul>
+          </nav>
+        </div>
+          
+        <div class="overlay-menu" id="overlay-menu">
+
+        </div>
+    </header>
+
+    <main>
+        <section id="topo-do-site" class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h2>Olá, sou</h2>
+                        <h1>Eric Pfeuti</h1>
+                        <h2>E eu sou um <span>Estudante de TI</span>.</h2>
+                        <p>Tenho 17 anos e sou um estudante no ensino médio técnico da FIAP School, uma instituição reconhecida por seu foco em inovação e tecnologia. Com um currículo voltado para a prática, atualmente estou em busca de oportunidade de estágio para aplicar e ampliar meus conhecimentos em desenvolvimento de software.
+                        </p>
+                        <div id="btns">
+                            <a href="#contato" id="btn-contato"><button>CONTATO</button></a>
+                            <a href="#" id="btn-download"><button><i class='bx bx-cloud-download' ></i> CURRÍCULO</button></a>
+                        </div>
+                        
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="images/perfil-img.png" alt="img perfil">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="meio-do-site" class="meio-do-site">
+            <h1 id="titulo"><span>PROJETOS</span>.</h1>
+            <div class="container-grid-cards-habilidades">
+                <div class="card">
+                    <img src="images/educa-eco-pic.png" alt="image EducaEco" id="imageLogo">
+                    <img src="images/img-logoEducaEco.png" alt="logo EducaEco" id="imgLogoPreto">
+                    <img src="images/img-logoEducaEcoBranco.png" alt="logo EducaEco" id="imgLogoBranco">
+                    <ul>
+                        <li>plataforma de ensino dedicada a promover práticas sustentáveis para indivíduos, empresas e instituições;</li>
+                    </ul>
+                    <div class="icons">
+                        <img src="images/devicon--nodejs.svg" alt="Logo NodeJS">
+                        <img src="images/logos--javascript.svg" alt="Logo JavaScript">
+                        <img src="images/devicon--mongodb.svg" alt="Logo MongoDB">
+                        <img src="images/devicon--html5.svg" alt="Logo HTML">
+                        <img src="images/devicon--css3.svg" alt="Logo CSS">
+                    </div>
+                    <a href="https://github.com/EricPfeuti/educa-eco-future-fest.git" id="btn-repositorio"><button><i class='bx bxl-github'></i> REPOSITÓRIO</button></a>
+                </div>
+                <div class="card">
+                    <img src="images/site-farmácia-pic.png" alt="image Farmácia" id="imageLogo">
+                    <img src="images/logoFarmaciaPreto.png" alt="logo Farmácia" id="imgLogoPreto">
+                    <img src="images/logoFarmaciaBranco.png" alt="logo Farmácia" id="imgLogoBranco">
+                    <ul>
+                        <li>plataforma de ensino dedicada a promover práticas sustentáveis para indivíduos, empresas e instituições;</li>
+                    </ul>
+                    <div class="icons">
+                        <img src="images/devicon--nodejs.svg" alt="Logo NodeJS">
+                        <img src="images/logos--javascript.svg" alt="Logo JavaScript">
+                        <img src="images/devicon--mongodb.svg" alt="Logo MongoDB">
+                        <img src="images/devicon--html5.svg" alt="Logo HTML">
+                        <img src="images/devicon--css3.svg" alt="Logo CSS">
+                    </div>
+                    <a href="https://github.com/EricPfeuti/MongoDBcomNodeJS.git" id="btn-repositorio"><button><i class='bx bxl-github'></i> REPOSITÓRIO</button></a>
+                </div>
+                <div class="card">
+                    <img src="images/site-botanico-pic.png" alt="image VerdeVivo" id="imageLogo">
+                    <img src="images/logoverdeVivoPreto.png" alt="logo VerdeVivo" id="imgLogoPretoVerdeVivo">
+                    <img src="images/logoverdeVivoBranco.png" alt="logo VerdeVivo" id="imgLogoBrancoVerdeVivo">
+                    <ul>
+                        <li>plataforma de ensino dedicada a promover práticas sustentáveis para indivíduos, empresas e instituições;</li>
+                    </ul>
+                    <div class="icons">
+                        <img src="images/devicon--nodejs.svg" alt="Logo NodeJS">
+                        <img src="images/logos--javascript.svg" alt="Logo JavaScript">
+                        <img src="images/catppuccin--json.svg" alt="Logo JSON">
+                        <img src="images/devicon--html5.svg" alt="Logo HTML">
+                        <img src="images/devicon--css3.svg" alt="Logo CSS">
+                    </div>
+                    <a href="https://github.com/EricPfeuti/SiteBotanico.git" id="btn-repositorio"><button><i class='bx bxl-github'></i> REPOSITÓRIO</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="habilidades">
+            <h1 id="titulo"><span>HABILIDADES</span>.</h1>
+            <div class="interface">
+                <div class="grid-container">
+                    <div class="card-habilidade">
+                        <img src="images/devicon--nodejs.svg" alt="logo NodeJS">
+                        <h2 id="node">Node.js</h2>
+                        <p>Venho desenvolvendo está habilidade na FIAP School, aplicando meus conhecimentos em vários projetos;</p>
+                    </div>
+                    <div class="card-habilidade">
+                        <img src="images/logos--javascript.svg" alt="logo JavaScript">
+                        <h2 id="js">JavaScript</h2>
+                        <p>Venho desenvolvendo está habilidade na FIAP School, aplicando meus conhecimentos em vários projetos;</p>
+                    </div>
+                    <div class="card-habilidade">
+                        <img src="images/devicon--html5.svg" alt="logo HTML">
+                        <h2 id="html">HTML5</h2>
+                        <p>Venho desenvolvendo está habilidade na FIAP School, aplicando meus conhecimentos em vários projetos;</p>
+                    </div>
+                    <div class="card-habilidade">
+                        <img src="images/devicon--css3.svg" alt="logo CSS">
+                        <h2 id="css">CSS3</h2>
+                        <p>Venho desenvolvendo está habilidade na FIAP School, aplicando meus conhecimentos em vários projetos;</p>
+                    </div>
+                    <div class="card-habilidade">
+                        <img src="images/twemoji--flag-united-states.svg" alt="logo USA">
+                        <h2 id="us">Inglês</h2>
+                        <p>Venho aprendendo Inglês na escola CNA (Cultural Norte Americano), nível avançado;</p>
+                    </div>
+                    <div class="card-habilidade">
+                        <img src="images/devicon--java.svg" alt="logo Java">
+                        <h2 id="java">Java</h2>
+                        <p>Venho desenvolvendo está habilidade em um curso da Udemy do Nelio Alves;</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">   
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre-site">
+                        <img src="images/Perfil.png" alt="img perfil">
+                    </div>
+                    <div class="txt-sobre-site">
+                        <h2>OLÁ, SOU <span>ERIC</span>.</h2><br>
+                        <p>
+                            Comecei na área de programação quando tinha 15 anos quando meu tio me apresentou um curso de Python que fazia jogos, fiquei muito empolgado e decidi começar o curso, ao terminar desenvolvi muitos jogos como Flappy Bird, Bee Honey, entre outros. Porém como era iniciante, eu não fazia ideia como funcionava programação, então não dei continuidade na área.
+                        </p><br>
+                        <p>
+                            Um ano se passou e comecei a notar que as coisas que via na escola, eu não usaria para muita coisa da minha vida, então conversei com meus pais sobre mudar de escola e minha mãe me disse que a FIAP School era uma escola técnica de programação, onde eu aprenderia programação durante a aula, fiquei muito feliz e me matriculei.
+                        </p><br>
+                        <p>
+                            Na escola, aprendi lógica de programação com a linguagem JavaScript, HTML, CSS e Microsoft SQL Server, tudo isso no primeiro ano. Já no segundo ano, aprendi node.js com banco de dados (MongoDB), express, entre outros, onde desenvolvi vários projetos. Agora estou no terceiro ano, aprendendo React e realizando alguns cursos na Udemy sobre outras linguagens como Java.
+                        </p><br>
+                        <div id="redes-sociais">
+                            <ul>
+                                <li><a href="https://www.linkedin.com/in/eric-pfeuti-b481142a8/"><i class='bx bxl-linkedin'></i></a></li>
+                                <li><a href="https://www.instagram.com/eric.pfeuti/"><i class='bx bxl-instagram'></i></a></li>
+                                <li><a href="https://github.com/EricPfeuti"><i class='bx bxl-github'></i></a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <h1 id="titulo"><span>CONTATO</span>.</h1>
+            <div class="interface">
+                <form action="https://formsubmit.co/eric.pfeuti2007@gmail.com" method="POST">
+                    <div class="value-input">
+                        <i class='bx bxs-user' ></i>
+                        <input type="text" name="name" placeholder="Digite seu nome:" required>
+                    </div>
+                    <div class="value-input">
+                        <i class='bx bxs-envelope'></i>
+                        <input type="email" name="email" placeholder="Digite seu email:" required>
+                    </div>
+                    <div class="value-input">
+                        <i class='bx bxs-message-dots'></i>
+                        <textarea name="message" placeholder="Digite sua mensagem:" required></textarea>
+                    </div>
+                    <button type="submit" id="btn-enviar"><i class='bx bxs-send'></i> ENVIAR</button>
+
+                    <input type="hidden" name="_subject" value="Novo Contato!">
+                    <input type="text" name="_honey" style="display: none;">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>  
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="flex">
+                <div class="img-footer-site">
+                    <a href="#"><img src="images/logoEricFooter.png" alt="img perfil"></a>
+                </div><br>
+                <div id="redes-sociais">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/eric-pfeuti-b481142a8/"><i class='bx bxl-linkedin'></i></a></li>
+                        <li><a href="https://www.instagram.com/eric.pfeuti/"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="https://github.com/EricPfeuti"><i class='bx bxl-github'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<!-- Box Icons-->
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</html>
