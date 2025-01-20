@@ -1,2 +1,1 @@
-# 💼 Portfólio | Eric Pfeuti
-<img src="images/Capturar.PNG">
+<img align="center" src="images/Capturar.PNG">
